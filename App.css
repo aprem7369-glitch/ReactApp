@@ -1,0 +1,56 @@
+
+/* App-wide form styling for a clean, modern look */
+body {
+	font-family: 'Segoe UI', Arial, sans-serif;
+	background: #f7f7f8;
+	margin: 0;
+	padding: 0;
+}
+
+form, .sl-panel {
+	background: #fff;
+	border-radius: 8px;
+	box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+	padding: 32px 24px;
+	max-width: 480px;
+	margin: 32px auto;
+}
+
+.sl-title {
+	font-size: 22px;
+	font-weight: 600;
+	margin-bottom: 24px;
+	color: #1f2328;
+}
+
+.sl-row {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 20px;
+}
+
+.sl-label {
+	font-size: 15px;
+	color: #333;
+	margin-bottom: 6px;
+}
+
+.sl-input {
+	height: 36px;
+	padding: 6px 12px;
+	border: 1px solid #d1d5db;
+	border-radius: 4px;
+	font-size: 15px;
+	background: #fafbfc;
+	transition: border-color 0.2s;
+}
+.sl-input:focus {
+	border-color: #0b5ed7;
+	outline: none;
+}
+
+.sl-info {
+	font-size: 12px;
+	color: #6b7380;
+	margin-left: 8px;
+}
