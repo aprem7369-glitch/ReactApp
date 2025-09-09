@@ -1,0 +1,5 @@
+{
+  "siteHeaderName": "My Website",
+  "cacheClearOnWrapperChange": "Enabled",
+  "topNavigationHomeChannel": "HomeChannelKey"
+}
